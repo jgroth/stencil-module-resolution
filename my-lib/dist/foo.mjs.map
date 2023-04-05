@@ -1,0 +1,1 @@
+{"version":3,"file":"foo.mjs","sources":["../src/foo/index.ts"],"sourcesContent":["export function foo() {\n    const text = 'Lorem ipsum';\n\n    console.log(text);\n\n    return text;\n}"],"names":["foo","text"],"mappings":"AAAO,SAASA,IAAM;AAClB,QAAMC,IAAO;AAEb,iBAAQ,IAAIA,CAAI,GAETA;AACX;"}

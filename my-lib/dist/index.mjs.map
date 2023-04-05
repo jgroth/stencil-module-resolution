@@ -1,0 +1,1 @@
+{"version":3,"file":"index.mjs","sources":["../src/index.ts"],"sourcesContent":["export function myLib() {\n    const text = 'Hello, world!';\n\n    console.log(text);\n\n    return text;\n}"],"names":["myLib","text"],"mappings":"AAAO,SAASA,IAAQ;AACpB,QAAMC,IAAO;AAEb,iBAAQ,IAAIA,CAAI,GAETA;AACX;"}

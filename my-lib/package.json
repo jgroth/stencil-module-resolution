@@ -1,0 +1,32 @@
+{
+  "name": "my-lib",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "default": "./dist/index.mjs"
+    },
+    "./foo": {
+      "types": "./dist/foo.d.ts",
+      "import": "./dist/foo.mjs",
+      "require": "./dist/foo.js"
+    }
+  },
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "vite build && tsc && rollup -c"
+  },
+  "devDependencies": {
+    "rollup": "^2.73.0",
+    "rollup-plugin-dts": "^3.0.2",
+    "typescript": "^4.6.4",
+    "vite": "^4.2.0"
+  }
+}
